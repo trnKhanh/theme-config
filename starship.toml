@@ -6,7 +6,6 @@ $localip\
 $shlvl\
 $singularity\
 $kubernetes\
-$directory\
 $vcsh\
 $fossil_branch\
 $fossil_metrics\
@@ -82,6 +81,7 @@ $custom\
 $sudo\
 $cmd_duration\
 $line_break\
+$directory\
 $jobs\
 $battery\
 $status\
@@ -124,6 +124,9 @@ format = '\[[$symbol($version)]($style)\]'
 
 [deno]
 format = '\[[$symbol($version)]($style)\]'
+
+[directory]
+read_only = ''
 
 [docker_context]
 format = '\[[$symbol$context]($style)\]'
